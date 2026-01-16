@@ -1,40 +1,21 @@
-/* styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
 body {
-    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
     background-color: #f8f9fa;
-    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
 }
 
 .navbar {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.nav-link:hover {
-    color: #e74c3c;
-}
-
-#home {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-    color: #fff;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.btn-success {
-    background-color: #2ecc71;
-    border-color: #2ecc71;
-    transition: all 0.3s;
-}
-
-.btn-success:hover {
-    background-color: #27ae60;
-    border-color: #27ae60;
-}
-
-/* Animation des barres de compétences */
-.skill-bar {
-    transition: width 1s ease-in-out;
+    margin-bottom: 20px;
 }
