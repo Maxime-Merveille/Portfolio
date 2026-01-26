@@ -4,43 +4,172 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DevFolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
     </head>
     <body>
-        <header>
-            <h1>Maxime Merveille</h1>
-            <h2>Développeur back-end .NET</h2>
-            <nav>
-                <a href="#">A propos</a>
-                <a href="#">Mes competences</a>
-                <a href="#">Mes expériences</a>
-                <a href="#">Mon CV</a>
-                <a href="#">Mes projets</a>
-                <a href="#">Me contacter</a>
+       <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">Ton Prénom</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#Accueil">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Competences">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projets">Projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
+            <section id="banniere">
+                <div class="content">
+                    <h1>Maxime Merveille</h1>
+                    <h1>Maxime Merveille</h1>
+                </div>
+            </section>
             <section id="aPropos">
-                <h2>A propos</h2>
+                <div class="container text-center">
+                    <h2>A propos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum aliquid saepe in cumque, quis accusantium quia voluptates tenetur nemo illum molestias delectus. Repellat, quam. Quae, laudantium dolorum, excepturi nisi tempore nihil repudiandae repellat fuga temporibus autem dignissimos provident? Deserunt?</p>
+                </div>
+                
             </section>
             <section id="Competences">
-                <h2>Mes competences</h2>
+                <div class="container text-center">
+                    <h2>Mes competences</h2>
+                    <div class="row g-5 justify-content-center">
+
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Langages de programmation</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Methodologie</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Logiciels</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Soft skills</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bonnes pratiques</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+
+                            <div class="card text-center w-100" style="height : 25rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Langues</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+                
             </section>
             <section id="Experiences">
+                <div class="container text-center">
+                    
+                    
+                </div>
                 <h2>Mes expériences</h2>
             </section>
-            <section id="CV">
-                <h2>Mon CV</h2>
-                <img src="CV.jpg" width="50%">
-                <a href="CV.pdf" download="CV_Maxime_Merveille">Telecharger mon CV en PDF</a>
+            <section id="Formations">
+                <div class="container text-center">
+                    
+                    
+                </div>
+                <h2>Mes formations</h2>
             </section>
             <section id="projets">
-                <h2>Mes projets</h2>
+                <div class="container text-center">
+                    <h2>Mes projets</h2>
+                    
+                </div>
+                
             </section>
         </main>
         <footer id="contact">
             <a href="https://www.linkedin.com/in/maxime-merveille-2894551b6/" target="_blank">LinkedIn</a>
             <a href="https://github.com/Maxime-Merveille" target="_blank">Github</a>
             <a href="mailto:maximemerveille59@gmail.com">E-mail</a>
+            <a href="" href="" download="CV.pdf">Telecharger mon CV en PDF</a>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
