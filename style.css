@@ -80,9 +80,14 @@ footer.site small{color:#8d9db0}
   min-width: 260px;
 }
 
+.btn{
+  text-align: center;
+  color: #ffffff;
+}
+
 .btn-cv {
   display: inline-block;
-  background: #1a7f45;
+  background: #12ad53;
   color: #ffffff;
   padding: 14px 26px;
   border-radius: 6px;
@@ -92,6 +97,9 @@ footer.site small{color:#8d9db0}
   margin-left: auto;
 }
 
+.btn:hover {
+  background: #15693a;
+}
 .btn-cv:hover {
   background: #15693a;
 }
